@@ -1,4 +1,1 @@
-# hello-world
-one more hello_world repository
-
-> Hi there, I'm Nikola and a graduate of economics trying to switch to IT world, so HELLO WORLD!
+This is a pledge to go over 100 days of code in Python. 100 days and 100 projects. 
