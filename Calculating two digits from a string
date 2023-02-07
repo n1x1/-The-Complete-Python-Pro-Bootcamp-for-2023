@@ -1,0 +1,13 @@
+# Creating a string
+
+two_digit_number = input("Type a two digit number: ")
+
+# Using subsublime to get the first and second digit
+
+first_digit = two_digit_number[0]
+second_digit = two_digit_number[1]
+
+# Converting string to integer
+result = int(first_digit) + int(second_digit)
+
+print(result)
