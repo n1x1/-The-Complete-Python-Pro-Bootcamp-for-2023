@@ -1,0 +1,17 @@
+# Get an input from the user's age 
+age = input("What is your current age? ")
+
+# Define maximum number of years
+max_age = 90 
+
+# Calculating the number of years left and converting to integer 
+left = int(max_age) - int(age)
+
+# Define the lenght of each time period and multiply it by the number of years left
+days = 365 * left
+weeks = 52 * left
+months = 12 * left
+
+# Printing the variables using f-string
+print(f"You have {days} days, {weeks} weeks, and {months} months left.")
+
