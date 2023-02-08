@@ -1,0 +1,10 @@
+# Creating variables 
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+
+#Converting variable strings to int\float
+bmi = int(weight) / (float(height) ** 2)
+
+# Printing the result and rounding the number
+print(round(bmi))
