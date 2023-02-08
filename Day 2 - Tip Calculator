@@ -13,4 +13,8 @@ people = input("How many people to split the bill? \n")
 total = int(tip) / int(people)
 
 # Printing the result, rounding the tip on two digits
-print(f"Each person should pay {round(total,2)}$. ")
+print(f"Each person should pay {total:.2f}$. ")
+
+
+
+
