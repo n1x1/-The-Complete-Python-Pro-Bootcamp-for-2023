@@ -1,0 +1,13 @@
+# Creating variable for height and age, defining age.
+height = input("What is your height? ")
+age = 18
+
+if int(height) >= 120:
+  print("You can ride on the rollercoaster.\n")
+  age = input("What is your age? ")
+  if int(age) > 18:  
+    print("The price of the ticket is $12. ")
+  else:
+    print("The ticket price is $7.")
+else:
+  print("You need to grow in order to ride a rollercoaster.")
