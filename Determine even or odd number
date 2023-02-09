@@ -1,0 +1,8 @@
+# Variable with input 
+number = int(input("Which number do you want to check? "))
+
+# if statement to determine if the number is odd, has a decimal number when dividing 
+if number % 2 == 1:
+  print("The number is odd.")
+else:
+  print("The number is even.")
