@@ -4,10 +4,13 @@ year = int(input("What year do you want to check? "))
 
 # To determine the leap year the value needs to be divided by 4, a 100 and finally 400 without decimal residue
 if year % 4 == 0:
-  if year % 100 == 0:
-    if year % 400 == 0:
-      print("Leap year")
-  else:
-    print("Not leap year")
+    if year % 100 == 0:
+        if year % 400 == 0: 
+            print("Leap year")
+        else:
+            print("Not leap year.")
+    else:
+        print("Leap year.")
 else:
-  print ("Not leap year")
+    print("Not leap year.")
+    
