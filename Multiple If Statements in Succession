@@ -1,0 +1,27 @@
+# Define age and input for height
+height = input("What is your height? ")
+age = 18
+bill = 0
+
+if int(height) >= 120:                              # if statement to determine the height
+  print("You can ride on the rollercoaster.\n") 
+  age = int(input("What is your age? "))            # Converting age to int; input the age 
+  if age < 12:                                      # Nested if statement 
+    bill = 5
+    print("The price of the ticket is $5. ")
+  elif age <= 18:                                   # elif statement 
+    bill = 7
+    print("The ticket price is $7")
+  else:
+    bill = 12
+    print("The ticket price is $12.")
+
+    wants_photo = input("Do you want a photo taken? Y or N.")
+    if wants_photo == "Y":                            # Add $3 to their bill
+      bill += 3
+
+    print(f"Your final bill is {bill}")
+
+
+else:
+  print("You need to grow in order to ride a rollercoaster.")
