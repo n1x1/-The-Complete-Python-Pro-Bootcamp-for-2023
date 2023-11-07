@@ -5,6 +5,7 @@ extra_cheese = input("Do you want extra cheese?") #  Y or N
 
 bill = 0
 
+# Setting the value for each pizza size
 if size == "S":
   bill += 15
 if size == "M":
@@ -12,13 +13,16 @@ if size == "M":
 if size == "L":
  bill += 25
 
+# Adding the pepperoni price for small and medium\large pizza
 if add_pepperoni == "Y":
   if size == "S":
     bill += 2
   else:
     bill += 3
 
+# Setting the value for extra cheese
 if extra_cheese == "Y":
   bill += 1
 
+# Printing final bill using f-string
 print(f"Your final bill is: ${bill}.")
