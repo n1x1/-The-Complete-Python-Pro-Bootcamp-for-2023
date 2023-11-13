@@ -1,0 +1,16 @@
+seconds = 14926  # Number of seconds
+
+# Calculating the whole number of hours in variable "seconds"
+hours = seconds // 3600 
+
+# Calculating the whole number of minutes left in variable "seconds" after calculating "hours"
+seconds_left = seconds // 60 
+
+# Converting seconds in minutes with the remainder 
+minutes = seconds_left % 60
+
+# Calculating remanider of seconds left
+final_seconds = seconds % 60
+
+print(str(seconds) , "seconds is the same as")
+print(str(hours) , "hours," , minutes  , "minutes, and" , final_seconds, "seconds")
