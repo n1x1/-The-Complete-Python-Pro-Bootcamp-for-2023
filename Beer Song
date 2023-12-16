@@ -1,0 +1,22 @@
+# Created variable 'word', added value 'bottles'
+word = "bottles"
+
+# Created for loop; define range for the loop, start at 99, stop at 0 and subtrack it by 1 for each new iteration
+for beer_num in range(99, 0, -1):
+   print(beer_num, word, "of beer on the wall.")
+   print(beer_num, word, "of beer.")
+   print("Take one down.")
+   print("Pass it around.")
+
+# Break the loop if the variable value of 'beer_num' is 1
+   if beer_num == 1:
+      print("No more bottles of beer on the wall.")
+
+# Created new variable 'new_num', her value is 'beer_num'(99) and subtrack it by 1
+else:
+      new_num = beer_num - 1
+      if new_num == 1:
+# When the value is 1, change the variable value of 'word' from 'bottles' to 'bottle'
+         word = "bottle"
+      print(new_num, word, "of beer on the wall.")
+print()
